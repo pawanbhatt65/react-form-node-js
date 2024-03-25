@@ -1,0 +1,50 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.form-group {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-group label {
+  margin-bottom: 7px;
+  color: #222;
+  font-weight: 600;
+}
+.form-group input {
+  width: 100%;
+  display: block;
+  padding: 7px 20px;
+  border: 1px solid #5b5757;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+}
+.form-group input:focus {
+  box-shadow: none;
+  border-color: #5b5757;
+}
+.error {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0;
+}

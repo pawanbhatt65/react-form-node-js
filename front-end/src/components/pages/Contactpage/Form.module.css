@@ -1,0 +1,12 @@
+form {
+  margin-bottom: 50px;
+}
+.form-btn {
+  color: #fff;
+}
+
+@media (max-width: 400px) {
+  form {
+    margin-bottom: 200px;
+  }
+}
